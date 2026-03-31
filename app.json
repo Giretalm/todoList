@@ -8,7 +8,7 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
       "experiments": {
-  "baseUrl": "/todoList"
+  "baseUrl": "/todoList/"
      },
     "splash": {
       "image": "./assets/splash-icon.png",
