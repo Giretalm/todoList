@@ -44,11 +44,12 @@ export default function App() {
         <CheckBox
           checked={item.completed}
           onPress={() => toggleTask(item.id)}
+          checkedColor="green"
           containerStyle={{
             borderWidth: 1,
-            borderColor: 'black',
+            borderColor: item.completed ? 'green' : 'black',
             borderRadius: 0,
-            padding: 2,
+            padding: 8,
           }}
         />
 
